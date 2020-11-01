@@ -85,7 +85,7 @@ function rebuildPlaylist(pl) {
 }
 
 function playlist() {
-    var id = getIdFromURL(getParameterByName("url"));
+    var id = getParameterByName("id");
     if (id == 0) {
         alert("Не получилось извлечь id из ссылки");
         return
